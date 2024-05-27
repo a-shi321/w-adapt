@@ -17,7 +17,7 @@ the format of datasets is similar with VOC,you just need to split train.txt to t
 
 
 ## Train and Test
-1.train the model,you need to download the pretrained model [resnet-101](https://github.com/jwyang/faster-rcnn.pytorch） which is different with pure pytorch pretrained model
+1.train the model,you need to download the pretrained model [resnet-101](https://github.com/jwyang/faster-rcnn.pytorch) which is different with pure pytorch pretrained model
 
 2.change the dataset root path in ./lib/model/utils/config.py and some dataset dir path in ./lib/datasets/cityscape.py,the default data path is ./data
 
